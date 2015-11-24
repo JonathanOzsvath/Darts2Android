@@ -1,0 +1,36 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0D17D5">
+
+        <Button
+            android:id="@+id/Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Score"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/Statistic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Statistic"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:onClick="onClick"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/layoutFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </FrameLayout>
+
+</LinearLayout>
