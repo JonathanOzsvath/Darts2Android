@@ -5,6 +5,7 @@
     android:orientation="vertical">
 
     <RelativeLayout
+        android:id="@+id/rLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#0D17D5">
@@ -25,6 +26,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="40dp"
             android:onClick="onClick"/>
+
     </RelativeLayout>
 
     <FrameLayout

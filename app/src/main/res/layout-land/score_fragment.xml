@@ -30,7 +30,7 @@
                 <TextView
                     android:id="@+id/playerOneName"
                     android:text="Player1"
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:textStyle="bold"
                     android:textColor="@android:color/white"
                     android:layout_weight="1"
@@ -43,7 +43,7 @@
                     android:id="@+id/playerTwoName"
                     android:text="Player2"
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:textColor="@android:color/white"
                     android:layout_weight="1"
                     android:layout_gravity="center"
@@ -74,6 +74,27 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/playerOneOut"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/playerTwoOut"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
             </TableRow>
         </TableLayout>
     </RelativeLayout>
